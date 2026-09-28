@@ -1,5 +1,8 @@
 # Staking, validators, and V14 rewards
 
+> **Historical V13 baseline (28 August 2026):** Retained for audit context. Current ERA V14 status and canonical repository identities are in [the repository index](../README.md) and documents 11–13. Historical repository links and LIVE_V13 labels below do not describe the current production chain.
+
+
 [Back to index](../README.md)
 
 ## Live V13 behavior
