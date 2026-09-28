@@ -10,13 +10,14 @@
 - Runtime metadata SHA-256 is `c188b00f3589677fe7ecfa833d92d884858ad642a6d231d52696298edbe91d40`.
 - Restrictive AI onboarding configuration is finalized; AI remains inactive.
 - The reviewed eraprojects.io R6 website deployment is closed.
-- Windows wallet owner checks passed. Android update/data preservation, chain connectivity, QR and scanner checks passed on build3.
+- Windows wallet owner checks passed. Android build3 update/data preservation, chain connectivity, QR and scanner checks passed; the owner-reported build4 read-only reward inspection also passed. No reward claim occurred.
+- Metadata Phase 5 persistence completed with the approved local check and renewal schedules, unchanged Kubo/gateway PIDs, exact four-object HTTPS and non-destructive recovery checks.
 
 ## Implemented but not commissioned
 
 The runtime and clients include native Assets, NFT primitives, the V14 allocator, SecurityBudget reward claims and the approved penalty policy surface. The finalized chain history checked during preparation did not show allocator initialization, production NFT commissioning, a SecurityBudget claim or penalty activation. Those production actions remain required in their recorded order and need fresh history, state, fee and signer review at action time.
 
-The dedicated ERA Metadata Service serves the four approved NFT metadata objects and has passed coordinator HTTPS, certificate, exact-object, rejection and resolver checks. Its recorded renewal/persistence phase and independent qualification remain open.
+The dedicated ERA Metadata Service serves the four approved NFT metadata objects and has passed coordinator HTTPS, certificate, exact-object, rejection and resolver checks. Its recorded renewal/persistence phase is complete. Independent qualification remains open; the single-host service is not automatic failover.
 
 ## Deferred or excluded
 
@@ -27,12 +28,10 @@ The dedicated ERA Metadata Service serves the four approved NFT metadata objects
 
 ## Remaining acceptance gates
 
-1. Owner retest of the Android build4 reward inspection.
-2. Metadata renewal/persistence procedure.
-3. NFT/allocator production commissioning and acceptance.
-4. One legitimate SecurityBudget reward payment, including finalized inner result and post-state.
-5. Approved penalty activation and post-state.
-6. Defined independent qualification.
-7. Final owner acceptance and separate GitHub publication approval.
+1. NFT/allocator production commissioning and acceptance, after the fresh historical-inventory and signing gates.
+2. One legitimate SecurityBudget reward payment, including finalized events and post-state.
+3. Approved penalty activation and post-state.
+4. Defined independent qualification.
+5. Final owner acceptance and separate GitHub publication approval.
 
 No public claim should describe the V14 programme as fully accepted until these gates close.
