@@ -10,15 +10,15 @@ The canonical wallet source is prepared in the `era-wallet/` subtree of [`erablo
 | --- | --- | --- |
 | Android | Included | build3 owner checks 1–5 passed; build4 reward-reader retest open |
 | Windows | Included | automated build checks and requested owner validation passed |
-| iOS | Included | source target only; build, packaging, signing and device acceptance open |
-| Linux | Included | source target only; build, packaging and acceptance open |
+| iOS | Included | unverified source target; no build, package signing or device claim; not a V14 acceptance gate |
+| Linux | Included | unverified source target; no build or package claim; not a V14 acceptance gate |
 
 ## Runtime and artifact binding
 
 - ERA genesis: `0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e`
 - Runtime: `era` specVersion 15, transactionVersion 1
 - Wallet source input commit: `0f4f415966a0225739f8ec9fb66b2fd9b9c15db8`
-- Apps integration commit: `97be7ffeab37ece7c3ccbe4ae53874892d37989a`
+- Apps integration commit: `29bcf34df1b21b257623d540a6c247df09432549`
 - Published Android build3 SHA-256: `d4e1a0bb9e57813508954cc59e994ee4274d629868a7a62353947d9a71bc1cb5`
 - Corrected Android build4 SHA-256: `b0bd46a8a02a0eb5bd04f3eb1a09aca403a837b899d49b3e2133d255638e16cc`
 - Android package: `com.eraprojects.era_wallet`; build4 versionCode 4

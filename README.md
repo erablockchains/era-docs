@@ -11,7 +11,7 @@ This repository is the documentation companion to the authenticated ERA V14 sour
 | Runtime | `era` specVersion 15, transactionVersion 1; upgrade finalized once at block 118480 |
 | Runtime identity | compressed Wasm SHA-256 `122af167022227c46b2b74d99f5d3a73f41f8d65bb4a8a1de7b88b6e986de2af`; metadata SHA-256 `c188b00f3589677fe7ecfa833d92d884858ad642a6d231d52696298edbe91d40` |
 | Website | Reviewed R6 deployment closed |
-| Native wallet | Android, Windows, iOS and Linux source prepared in `erablockchains/apps`; Windows accepted, Android reward-reader build4 retest open, iOS/Linux platform acceptance open |
+| Native wallet | Android, Windows, iOS and Linux source prepared in `erablockchains/apps`; Windows accepted and Android reward-reader build4 retest open. iOS/Linux are unverified source targets, not additional V14 acceptance gates. |
 | V14 programme | Not yet finally accepted |
 
 Native transfers, consensus staking, capped SecurityBudget accrual, founder vesting, category custody, native Assets, NFT primitives and the World registry are deployed runtime capabilities. NFT and allocator production commissioning remains required for V14; implementation does not prove commissioning. The first legitimate SecurityBudget reward payment, approved penalty activation, metadata persistence and independent qualification also remain open.
@@ -24,7 +24,7 @@ AMM and AI predictive tokenization are inactive and deferred. Sentry/private met
 | --- | --- | --- |
 | Blockchain | [`erablockchains/era-blockchain`](https://github.com/erablockchains/era-blockchain), `main` | branch `coord/v14-integration-20260928`, commit `06b95bb5da22937707ba20f677d4c4bbd95a5107` |
 | Documentation | [`erablockchains/era-docs`](https://github.com/erablockchains/era-docs), `main` | this local integration branch; final commit recorded after validation |
-| Native wallet | [`erablockchains/apps`](https://github.com/erablockchains/apps), `master`, subtree `era-wallet/` | branch `coord/v14-wallet-integration-20260928`, commit `97be7ffeab37ece7c3ccbe4ae53874892d37989a` |
+| Native wallet | [`erablockchains/apps`](https://github.com/erablockchains/apps), `master`, subtree `era-wallet/` | branch `coord/v14-wallet-integration-20260928`, commit `29bcf34df1b21b257623d540a6c247df09432549` |
 
 The blockchain repository remains private during preparation. The documentation repository also remains private. The apps repository is already public, so any push publishes wallet bytes; no prepared branch has been pushed. Default branches have not been renamed, and no replacement repository has been created.
 
