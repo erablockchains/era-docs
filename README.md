@@ -22,7 +22,7 @@ AMM and AI predictive tokenization are inactive and deferred. Sentry/private met
 
 | Component | Repository and default branch | Prepared local integration identity |
 | --- | --- | --- |
-| Blockchain | [`erablockchains/era-blockchain`](https://github.com/erablockchains/era-blockchain), `main` | branch `coord/v14-integration-20260928`, commit `06b95bb5da22937707ba20f677d4c4bbd95a5107` |
+| Blockchain | [`erablockchains/era-blockchain`](https://github.com/erablockchains/era-blockchain), `main` | branch `coord/v14-integration-20260928`, commit `124a7f5dc5fd1892415fa425f293236e916e2b1e` |
 | Documentation | [`erablockchains/era-docs`](https://github.com/erablockchains/era-docs), `main` | this local integration branch; final commit recorded after validation |
 | Native wallet | [`erablockchains/apps`](https://github.com/erablockchains/apps), `master`, subtree `era-wallet/` | branch `coord/v14-wallet-integration-20260928`, commit `6fc0b720e961412198f06a20cee1bdb5bb95a8b5` |
 
