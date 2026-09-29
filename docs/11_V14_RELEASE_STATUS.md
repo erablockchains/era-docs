@@ -24,7 +24,7 @@ The dedicated ERA Metadata Service serves the four approved NFT metadata objects
 - AMM is inactive and deferred.
 - AI predictive tokenization and model-service commissioning are inactive and deferred.
 - Sentry/private metadata storage is outside V14.
-- Public source publication and listings remain separately gated.
+- Public source publication is separately gated by exact review and owner approval. It need not wait for production commissioning if the source release is labelled as a prerelease and records the open gates accurately.
 
 ## Remaining acceptance gates
 
@@ -32,6 +32,6 @@ The dedicated ERA Metadata Service serves the four approved NFT metadata objects
 2. One legitimate SecurityBudget reward payment, including finalized events and post-state.
 3. Approved penalty activation and post-state.
 4. Defined independent qualification.
-5. Final owner acceptance and separate GitHub publication approval.
+5. Final owner acceptance of the V14 production programme. Source publication has a separate exact-identity approval.
 
 No public claim should describe the V14 programme as fully accepted until these gates close.

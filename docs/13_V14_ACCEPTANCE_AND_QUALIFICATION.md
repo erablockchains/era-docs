@@ -23,6 +23,6 @@ The independent operator must provide:
 
 This is the defined remaining independent qualification. A coordinator rerun, owner device check or validator-host observation does not substitute for it.
 
-## Publication gate
+## Separate source-publication gate
 
-Before GitHub publication, reconcile the final three repository commits, confirm the proposed blockchain `v14.0.0` tag target, verify source/artifact hashes and license status, rerun secret/private-evidence scans, and present the exact branches, commits, tags and assets for owner approval. No prepared branch has been pushed.
+Public source may be delivered as a clearly labelled V14 source prerelease before production commissioning and independent qualification finish. Its documentation must keep those requirements open and avoid a full-acceptance claim. Before GitHub publication, reconcile the final three repository commits, confirm the proposed blockchain `v14.0.0-rc.1` tag target, verify source/artifact hashes and licences, review reachable private history and workflow effects, and present the exact branches, commits, visibility changes, tag and assets for owner approval. No prepared branch has been pushed. The independent package above remains necessary for independent qualification, not for accurately labelled source publication.

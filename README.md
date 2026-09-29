@@ -37,13 +37,15 @@ The blockchain repository remains private during preparation. The documentation 
 - [Security, governance and custody](docs/07_SECURITY_GOVERNANCE_AND_CUSTODY.md)
 - [Independent review guide](docs/09_INDEPENDENT_REVIEW_GUIDE.md)
 - [Fact ledger](docs/10_FACT_LEDGER.md)
+- [Developer and validator onboarding](docs/14_DEVELOPER_AND_VALIDATOR_ONBOARDING.md)
+- [Verified listing factsheet](docs/15_PUBLIC_LISTING_FACTSHEET.md)
 
 Documents 01–10 originated as the 28 August 2026 V13 private-review baseline. Their historical anchors remain useful but do not override the current V14 status above or documents 11–13.
 
 ## Publication boundary
 
-The proposed blockchain tag is `v14.0.0`; it does not exist. Branch pushes, tags, releases, repository visibility changes and release-asset publication require separate approval. The website deployment did not authorize GitHub publication.
+The proposed blockchain source-prerelease tag is `v14.0.0-rc.1`; it does not exist. Public source delivery is a separate milestone from completing NFT/allocator commissioning, the legitimate reward payment, penalty activation and independent qualification. Those gates still govern operational completion and any full-V14-acceptance claim. Branch pushes, tags, releases, repository visibility changes and release-asset publication require one exact action-time approval. The website deployment did not authorize GitHub publication.
 
-The documentation repository still has no selected first-party license. Existing records classify that choice as an owner decision, so a license has not been invented during preparation. This must be resolved before public documentation publication.
+The proposed first-party documentation licence is Apache-2.0; [LICENSE](LICENSE) and [NOTICE](NOTICE) are prepared for owner rights and publication review. Third-party text or art, if any is identified, retains its own terms and attribution.
 
 See [SECURITY.md](SECURITY.md) for responsible reporting and [CONTRIBUTING.md](CONTRIBUTING.md) for evidence rules.

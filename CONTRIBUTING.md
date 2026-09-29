@@ -15,4 +15,4 @@ Before review:
 5. record owner evidence separately from automated and independent evidence;
 6. do not publish until the separate action-time approval is recorded.
 
-The documentation license remains an owner decision and must be resolved before public publication.
+First-party documentation is prepared under Apache-2.0 in [LICENSE](LICENSE), subject to rights-holder review before publication. Preserve third-party terms and attribution; a linked source is not relicensed by this repository.
