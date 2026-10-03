@@ -9,7 +9,7 @@
 - Compressed runtime Wasm SHA-256 is `122af167022227c46b2b74d99f5d3a73f41f8d65bb4a8a1de7b88b6e986de2af`.
 - Runtime metadata SHA-256 is `c188b00f3589677fe7ecfa833d92d884858ad642a6d231d52696298edbe91d40`.
 - Restrictive AI onboarding configuration is finalized; AI remains inactive.
-- The reviewed eraprojects.io R6 website deployment is closed.
+- The original-design multilingual website deployment and build4 wallet-download update are closed. Validator and FAQ content is prepared separately for review.
 - Windows wallet owner checks passed. Android build3 update/data preservation, chain connectivity, QR and scanner checks passed; the owner-reported build4 read-only reward inspection also passed. No reward claim occurred.
 - Metadata Phase 5 persistence completed with the approved local check and renewal schedules, unchanged Kubo/gateway PIDs, exact four-object HTTPS and non-destructive recovery checks.
 
@@ -24,7 +24,7 @@ The dedicated ERA Metadata Service serves the four approved NFT metadata objects
 - AMM is inactive and deferred.
 - AI predictive tokenization and model-service commissioning are inactive and deferred.
 - Sentry/private metadata storage is outside V14.
-- Public source publication is separately gated by exact review and owner approval. It need not wait for production commissioning if the source release is labelled as a prerelease and records the open gates accurately.
+- The authenticated blockchain source was published as `v14.0.0-rc.1`, explicitly a prerelease. It does not close production commissioning or independent qualification.
 
 ## Remaining acceptance gates
 
