@@ -8,4 +8,4 @@ Include only the affected repository and exact commit, expected and observed beh
 
 The published repository's `main` branch is protected by an active ruleset requiring pull requests and resolved review conversations, and blocking force pushes and deletion. Private vulnerability-reporting availability for ordinary reporters has not been established; request a secure contact route if the GitHub form is unavailable.
 
-Independent security qualification and the documentation license remain open. This policy creates no bounty, response deadline, certification or support promise.
+Independent security qualification remains open. First-party documentation uses the repository's Apache-2.0 licence; this security policy creates no bounty, response deadline, certification or support promise.

@@ -20,13 +20,13 @@ AMM and AI predictive tokenization are inactive and deferred. Sentry/private met
 
 ## Canonical repositories
 
-| Component | Repository and default branch | Prepared local integration identity |
+| Component | Repository and default branch | Current status |
 | --- | --- | --- |
-| Blockchain | [`erablockchains/era-blockchain`](https://github.com/erablockchains/era-blockchain), `main` | branch `coord/v14-integration-20260928`, commit `02b0c57dc244af07783be259659bbb86eb68d189` |
-| Documentation | [`erablockchains/era-docs`](https://github.com/erablockchains/era-docs), `main` | this local integration branch; final commit recorded after validation |
-| Native wallet | [`erablockchains/apps`](https://github.com/erablockchains/apps), `master`, subtree `era-wallet/` | branch `coord/v14-wallet-integration-20260928`, commit `6fc0b720e961412198f06a20cee1bdb5bb95a8b5` |
+| Blockchain | [`erablockchains/era-blockchain`](https://github.com/erablockchains/era-blockchain), `main` | `v14.0.0-rc.1` source prerelease published; commissioning remains open |
+| Documentation | [`erablockchains/era-docs`](https://github.com/erablockchains/era-docs), `main` | validator/FAQ update proposed in [draft PR #1](https://github.com/erablockchains/era-docs/pull/1) |
+| Native wallet | [`erablockchains/apps`](https://github.com/erablockchains/apps), `master`, subtree `era-wallet/` | build4 website downloads published; iOS/Linux source targets unverified |
 
-The canonical repositories retain their existing default branches and protected pull-request workflow. The blockchain source is published as a clearly labelled `v14.0.0-rc.1` prerelease; this is separate from full V14 production acceptance. The current validator/FAQ documentation changes are being prepared on `coord/validator-faq-20261003` for a pull request to `main`.
+The canonical repositories retain their existing default branches and protected pull-request workflow. The blockchain source is published as a clearly labelled `v14.0.0-rc.1` prerelease; this is separate from full V14 production acceptance. The validator/FAQ documentation changes are proposed on `coord/validator-faq-20261003` in draft PR #1 and are held for companion website publication.
 
 ## Document map
 
