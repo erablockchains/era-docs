@@ -8,13 +8,13 @@ This repository is the documentation companion to the authenticated ERA V14 sour
 | --- | --- |
 | Network | ERA production genesis `0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e` |
 | Fleet | Authenticated V14 node release accepted on all nine hosts |
-| Runtime | `era` specVersion 15, transactionVersion 1; upgrade finalized once at block 118480 |
-| Runtime identity | compressed Wasm SHA-256 `122af167022227c46b2b74d99f5d3a73f41f8d65bb4a8a1de7b88b6e986de2af`; metadata SHA-256 `c188b00f3589677fe7ecfa833d92d884858ad642a6d231d52696298edbe91d40` |
-| Website | Original-design multilingual website and wallet build4 deployment accepted; validator and FAQ content prepared separately for review |
+| Runtime | `era` specVersion 16, transactionVersion 1; spec16 creation-control cutover finalized at block 334621 after the accepted spec15 upgrade |
+| Runtime identity | spec16 compressed Wasm SHA-256 `bc0085ce268f447760403a3049c9e9e64b0150bdd79c0ee20490f6fab36b2b85`; the historical spec15 identity remains in the provenance records |
+| Website | Original-design multilingual website, wallet build4 downloads, validator guide and FAQ accepted; post-NFT status correction in preparation |
 | Native wallet | Android, Windows, iOS and Linux source prepared in `erablockchains/apps`; Windows and Android read-only owner checks accepted. iOS/Linux are unverified source targets, not additional V14 acceptance gates. |
 | V14 programme | Not yet finally accepted |
 
-Native transfers, consensus staking, capped SecurityBudget accrual, founder vesting, category custody, native Assets, NFT primitives and the World registry are deployed runtime capabilities. Metadata Phase 5 persistence is complete. NFT and allocator production commissioning remains required for V14; implementation does not prove commissioning. The first legitimate SecurityBudget reward payment, approved penalty activation and independent qualification remain open.
+Native transfers, consensus staking, capped SecurityBudget accrual, founder vesting, category custody, native Assets, NFT primitives and the World registry are deployed runtime capabilities. Metadata Phase 5 persistence is complete. The approved NFT/allocator commissioning sequence finalized through collection creation, three mints, metadata, sale and priced swap; exact public metadata and owner-reported native-wallet display passed. The first legitimate SecurityBudget reward payment, approved penalty activation and independent qualification remain open.
 
 AMM and AI predictive tokenization are inactive and deferred. Sentry/private metadata storage is outside V14. The dedicated public ERA Metadata Service is the V14 metadata route.
 
@@ -46,7 +46,7 @@ Documents 01–10 originated as the 28 August 2026 V13 private-review baseline. 
 
 ## Publication boundary
 
-The published blockchain source-prerelease tag is `v14.0.0-rc.1`. Public source delivery is separate from completing NFT/allocator commissioning, the legitimate reward payment, penalty activation and independent qualification. Those gates still govern operational completion and any full-V14-acceptance claim. New documentation is proposed through the protected pull-request process; neither this branch nor its website companion is a production validator activation.
+The published blockchain source-prerelease tag is `v14.0.0-rc.1`. The NFT/allocator commissioning sequence has since passed its recorded chain, metadata and owner-wallet checks. A legitimate reward payment, penalty activation and independent qualification still govern any full-V14-acceptance claim. New documentation follows the protected pull-request process; neither this branch nor its website companion is a production validator activation.
 
 First-party documentation is distributed under [Apache-2.0](LICENSE) with the repository [NOTICE](NOTICE). Third-party material retains its own terms and attribution.
 

@@ -2,7 +2,7 @@
 
 [Back to index](../README.md) · [Public FAQ](https://www.eraprojects.io/en/faq/) · [Validator guide](16_BECOME_A_VALIDATOR.md)
 
-ERA's nine-host fleet and spec15 runtime are deployed. Full V14 programme acceptance still requires NFT/allocator commissioning, one legitimate SecurityBudget reward payment, penalty activation and independent qualification. The source prerelease is not a full-production-acceptance claim.
+ERA's nine-host fleet and spec16 creation-control runtime are deployed. The approved NFT/allocator commissioning sequence finalized, including collection 1, three items, metadata, a restricted sale and a priced swap. Full V14 programme acceptance still requires one legitimate SecurityBudget reward payment, penalty activation and independent qualification. The source prerelease is not a full-production-acceptance claim.
 
 ## ERA, accounts and wallets
 
@@ -14,7 +14,7 @@ ERA's nine-host fleet and spec15 runtime are deployed. Full V14 programme accept
 
 **What do the receiving QR code and scanner do?** The QR shows the selected account's public receiving address and updates when switching accounts. The scanner handles device permissions, cancellation and invalid input. It must not display or transmit secret material.
 
-**Which network address should the wallet use?** Client RPC uses `wss://eraprojects.org/`; verify ERA genesis `0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e` and runtime `era` specVersion 15. Node peer connections are separate from wallet WSS.
+**Which network address should the wallet use?** Client RPC uses `wss://eraprojects.org/`; verify ERA genesis `0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e` and runtime `era` specVersion 16. Node peer connections are separate from wallet WSS.
 
 ## Fees, staking and rewards
 
@@ -28,7 +28,7 @@ ERA's nine-host fleet and spec15 runtime are deployed. Full V14 programme accept
 
 ## Features, source and support
 
-**Why might an NFT collection be absent?** NFT primitives and the dedicated metadata service are deployed. Allocator initialization and production NFT mint, sale and swap commissioning remain required V14 work. A missing production collection before commissioning is expected, not proof of a broken reader.
+**What NFT collection is commissioned?** Collection 1 and three items have finalized on-chain metadata. The approved restricted sale transferred item 1 to F2 for 1 ETKN; the approved priced swap transferred item 2 to F1 and item 3 to F2, with 0.1 ETKN paid from F1 to F2. The four approved metadata objects passed exact public HTTPS retrieval, and the owner reported matching native-wallet display. A missing or different collection is not evidence that it exists; verify its ID and finalized state before treating a reader error as a wallet defect.
 
 **Are AMM and AI prediction tokenization active?** No. Both remain inactive and deferred. Additional private/sentry metadata storage is outside V14; the public dedicated ERA Metadata Service is the current route.
 
