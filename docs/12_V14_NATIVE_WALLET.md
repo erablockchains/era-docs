@@ -24,6 +24,6 @@ The canonical wallet source is prepared in the `era-wallet/` subtree of [`erablo
 - Android package: `com.eraprojects.era_wallet`; build4 versionCode 4
 - Android signer-certificate SHA-256: `19292f4dda5e588c389dcc03697e600481a0b20318d1092deaf66eec17c49e14`
 
-Build4 fixes WebSocket readiness and stale-provider replacement after build3 stopped with `Bad state: No element` before showing reward eligibility. It does not change reward calculation or transaction construction. The owner reports that the targeted build4 read-only inspection passed with era 277, the approved validator, page 0, eligible true, points 3320, page count 1, liability 1.825271356245051407 ETKN, claimed false and expired false. No claim occurred. Build4 is not yet the website-published APK.
+Build4 fixes WebSocket readiness and stale-provider replacement after build3 stopped with `Bad state: No element` before showing reward eligibility. It does not change reward calculation or transaction construction. The owner reports that the targeted build4 read-only inspection passed with era 277, the approved validator, page 0, eligible true, points 3320, page count 1, liability 1.825271356245051407 ETKN, claimed false and expired false. No claim occurred. Build4 is the website-published APK and Windows package; use the [official download page](https://www.eraprojects.io/en/downloads/) and published `SHA256SUMS` for exact artifact verification.
 
 No wallet acceptance result proves an NFT, reward or penalty transaction. Wallet testing must not import owner keys merely for routine validation.
