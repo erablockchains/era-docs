@@ -16,6 +16,8 @@ ERA's nine-host fleet and spec16 creation-control runtime are deployed. The appr
 
 **Which network address should the wallet use?** Client RPC uses `wss://eraprojects.org/`; verify ERA genesis `0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e` and runtime `era` specVersion 16. Node peer connections are separate from wallet WSS.
 
+**Will ETKN support other wallets or ERC-20 networks?** [V15-INTEROP-01](18_V15_ERC20_INTEROPERABILITY.md) plans broader third-party wallet and exchange access. The architecture assessment includes a fully backed external ERC-20 representation and ERA-local Ethereum compatibility. The network and implementation are not yet selected; this is a planned capability. Native staking, rewards and NFTs require their own client integrations.
+
 ## Fees, staking and rewards
 
 **Are transactions free?** Transactions may charge native ETKN fees. Review the exact call, recipient, amount, fee and finalized status before signing. An uncertain submission must be reconciled before any retry.

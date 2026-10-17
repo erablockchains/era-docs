@@ -5,6 +5,8 @@
 
 [Back to index](../README.md)
 
+> **V15 planning update (17 October 2026):** ERC-20 interoperability and external-wallet/exchange access are recorded in [V15-INTEROP-01](18_V15_ERC20_INTEROPERABILITY.md). The historical baseline below is retained unchanged.
+
 ## Version boundary
 
 | Version | Status | Meaning |
