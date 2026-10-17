@@ -41,6 +41,7 @@ The canonical repositories retain their existing default branches and protected 
 - [Verified listing factsheet](docs/15_PUBLIC_LISTING_FACTSHEET.md)
 - [Become a validator](docs/16_BECOME_A_VALIDATOR.md)
 - [Frequently asked questions](docs/17_FAQ.md)
+- [Planned V15 ERC-20 interoperability and external-wallet access](docs/18_V15_ERC20_INTEROPERABILITY.md)
 
 Documents 01–10 originated as the 28 August 2026 V13 private-review baseline. Their historical anchors remain useful but do not override the current V14 status above or documents 11–13.
 
