@@ -1,0 +1,216 @@
+{
+  "observedUTC": "2026-10-26T18:57:53.686Z",
+  "endpoint": "wss://eraprojects.org",
+  "genesis": "0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e",
+  "finalizedHash": "0x7c6b5f4f76a602a80a2089f9e9f43bca6dc72c3e6a6379f3462720010f367fd8",
+  "height": 576743,
+  "header": {
+    "parentHash": "0x912d0a60868757bdb916d1924a0bdd84dd3f8b77af9472c8d50af9d78480d00b",
+    "number": "0x8cce7",
+    "stateRoot": "0x1ac14dcf8a1b4c1da408981945a830b343ddaeff5f3615ce69ee8691fb99a46d",
+    "extrinsicsRoot": "0xde769ab632f37c3504a4a7a77b47e8eb6d3fb44fe1b9de3c0b804ff890fb8fa6",
+    "digest": {
+      "logs": [
+        "0x0642414245b50101010000006ff0cf1100000000f4942add31436cade11a06f1c456272fea18b41256deb4435c401168233c8b285e0263f24c69040786917987881876e1cbfb4c691a5d62b121a1e1d4e544f70ced94e102b407b33352845e4d67495fc57e9438648c716181c7d0e04014d99507",
+        "0x05424142450101442ab4606b6a70174c03a7e00af6500a35813a91d47f263626aa4098219b1c5fa097b10f12ae21f3bc314e548dcd0318b4f98d5fc140fc4f92f55bdc71a28489"
+      ]
+    }
+  },
+  "runtime": {
+    "specName": "era",
+    "implName": "era",
+    "authoringVersion": 1,
+    "specVersion": 16,
+    "implVersion": 1,
+    "apis": [
+      [
+        "0x1c5513b4e3300b65",
+        1
+      ],
+      [
+        "0x525b9aabbabc1b00",
+        1
+      ],
+      [
+        "0xab3c0572291feb8b",
+        1
+      ],
+      [
+        "0xdf6acb689907609b",
+        5
+      ],
+      [
+        "0x37e397fc7c91f5e4",
+        2
+      ],
+      [
+        "0x40fe3ad401f8959a",
+        6
+      ],
+      [
+        "0xd2bc9897eed08f15",
+        3
+      ],
+      [
+        "0xbc9d89904f5b923f",
+        1
+      ],
+      [
+        "0x37c8bb1350a9a2a8",
+        4
+      ],
+      [
+        "0xcbca25e39f142387",
+        2
+      ],
+      [
+        "0xed99c5acb25eedf5",
+        3
+      ],
+      [
+        "0xfbc577b9d747efd6",
+        1
+      ]
+    ],
+    "transactionVersion": 1,
+    "systemVersion": 1,
+    "stateVersion": 1
+  },
+  "metadataSha256": "574931f693241cb62e1ad2990eda55e2250c36c9c0de852b0380eac480c8496a",
+  "runtimeWasmSha256": "bc0085ce268f447760403a3049c9e9e64b0150bdd79c0ee20490f6fab36b2b85",
+  "system_chain": "ERA",
+  "system_name": "era-node",
+  "system_version": "0.1.0",
+  "system_properties": {
+    "ss58Format": 42,
+    "tokenDecimals": 18,
+    "tokenSymbol": "ETKN"
+  },
+  "system_health": {
+    "peers": 2,
+    "isSyncing": false,
+    "shouldHavePeers": false
+  },
+  "rpc_methods": {
+    "methods": [
+      "account_nextIndex",
+      "author_hasKey",
+      "author_hasSessionKeys",
+      "author_insertKey",
+      "author_pendingExtrinsics",
+      "author_removeExtrinsic",
+      "author_rotateKeys",
+      "author_submitAndWatchExtrinsic",
+      "author_submitExtrinsic",
+      "author_unwatchExtrinsic",
+      "chainHead_v1_body",
+      "chainHead_v1_call",
+      "chainHead_v1_continue",
+      "chainHead_v1_follow",
+      "chainHead_v1_header",
+      "chainHead_v1_stopOperation",
+      "chainHead_v1_storage",
+      "chainHead_v1_unfollow",
+      "chainHead_v1_unpin",
+      "chainSpec_v1_chainName",
+      "chainSpec_v1_genesisHash",
+      "chainSpec_v1_properties",
+      "chain_getBlock",
+      "chain_getBlockHash",
+      "chain_getFinalisedHead",
+      "chain_getFinalizedHead",
+      "chain_getHead",
+      "chain_getHeader",
+      "chain_getRuntimeVersion",
+      "chain_subscribeAllHeads",
+      "chain_subscribeFinalisedHeads",
+      "chain_subscribeFinalizedHeads",
+      "chain_subscribeNewHead",
+      "chain_subscribeNewHeads",
+      "chain_subscribeRuntimeVersion",
+      "chain_unsubscribeAllHeads",
+      "chain_unsubscribeFinalisedHeads",
+      "chain_unsubscribeFinalizedHeads",
+      "chain_unsubscribeNewHead",
+      "chain_unsubscribeNewHeads",
+      "chain_unsubscribeRuntimeVersion",
+      "childstate_getKeys",
+      "childstate_getKeysPaged",
+      "childstate_getKeysPagedAt",
+      "childstate_getStorage",
+      "childstate_getStorageEntries",
+      "childstate_getStorageHash",
+      "childstate_getStorageSize",
+      "offchain_localStorageClear",
+      "offchain_localStorageGet",
+      "offchain_localStorageSet",
+      "payment_queryFeeDetails",
+      "payment_queryInfo",
+      "rpc_methods",
+      "state_call",
+      "state_callAt",
+      "state_getChildReadProof",
+      "state_getKeys",
+      "state_getKeysPaged",
+      "state_getKeysPagedAt",
+      "state_getMetadata",
+      "state_getPairs",
+      "state_getReadProof",
+      "state_getRuntimeVersion",
+      "state_getStorage",
+      "state_getStorageAt",
+      "state_getStorageHash",
+      "state_getStorageHashAt",
+      "state_getStorageSize",
+      "state_getStorageSizeAt",
+      "state_queryStorage",
+      "state_queryStorageAt",
+      "state_subscribeRuntimeVersion",
+      "state_subscribeStorage",
+      "state_traceBlock",
+      "state_unsubscribeRuntimeVersion",
+      "state_unsubscribeStorage",
+      "subscribe_newHead",
+      "system_accountNextIndex",
+      "system_addLogFilter",
+      "system_addReservedPeer",
+      "system_chain",
+      "system_chainType",
+      "system_dryRun",
+      "system_dryRunAt",
+      "system_health",
+      "system_localListenAddresses",
+      "system_localPeerId",
+      "system_name",
+      "system_nodeRoles",
+      "system_peers",
+      "system_properties",
+      "system_removeReservedPeer",
+      "system_reservedPeers",
+      "system_resetLogFilter",
+      "system_syncState",
+      "system_unstable_networkState",
+      "system_version",
+      "transactionWatch_v1_submitAndWatch",
+      "transactionWatch_v1_unwatch",
+      "transaction_v1_broadcast",
+      "transaction_v1_stop",
+      "unsubscribe_newHead"
+    ]
+  },
+  "totalIssuance": {
+    "key": "0xc2261276cc9d1f8598ea4b6a74b15c2f57c875e4cff74148e4628f264b974c80",
+    "raw": "0x000000e4d20cc8dcd2b7520000000000",
+    "baseUnits": "100000000000000000000000000"
+  },
+  "remainingAllowance": {
+    "key": "0x8d9edb84bed96e982349ffde6f22339520349ed4e1ca1b09070e7fab1022e37a",
+    "raw": "0x000000046a7308c36976e80200000000",
+    "baseUnits": "900000000000000000000000000"
+  },
+  "nextFinalizedHash": "0xc44074514570e45247730e4fdb664307893178e339c5ff71cc25084b37ccef9e",
+  "https": {
+    "status": 200,
+    "body": "{\"jsonrpc\":\"2.0\",\"id\":1,\"result\":\"0x0abc2c3d8db5815541050b73da4d81267ebf14d90dbee8d7258155b667ea112e\"}"
+  }
+}

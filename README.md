@@ -30,6 +30,7 @@ The canonical repositories retain their existing default branches and protected 
 
 ## Document map
 
+- [Native ETKN exchange integration kit v1.0.0](exchange-integration/README.md) — finalized spec16 observation, runnable synthetic examples, node instructions and exchange acceptance checklist.
 - [V14 release and commissioning status](docs/11_V14_RELEASE_STATUS.md)
 - [Native wallet platforms and artifact binding](docs/12_V14_NATIVE_WALLET.md)
 - [Acceptance and independent qualification](docs/13_V14_ACCEPTANCE_AND_QUALIFICATION.md)

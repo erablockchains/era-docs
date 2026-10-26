@@ -1,0 +1,264 @@
+{
+  "height": 576743,
+  "hash": "0x7c6b5f4f76a602a80a2089f9e9f43bca6dc72c3e6a6379f3462720010f367fd8",
+  "signedExtensions": [
+    "CheckNonZeroSender",
+    "CheckSpecVersion",
+    "CheckTxVersion",
+    "CheckGenesis",
+    "CheckMortality",
+    "CheckNonce",
+    "CheckWeight",
+    "ChargeTransactionPayment"
+  ],
+  "existentialDeposit": "100000000000000",
+  "ss58Prefix": "42",
+  "validatorCount": 4,
+  "constants": {
+    "balances": {
+      "existentialDeposit": 100000000000000,
+      "maxLocks": 50,
+      "maxReserves": 50,
+      "maxFreezes": 0
+    },
+    "transactionPayment": {
+      "operationalFeeMultiplier": 5
+    },
+    "vesting": {
+      "minVestedTransfer": 1000000000000000,
+      "maxVestingSchedules": 128
+    },
+    "babe": {
+      "epochDuration": 100,
+      "expectedBlockTime": 6000,
+      "maxAuthorities": 1000,
+      "maxNominators": 0
+    },
+    "grandpa": {
+      "maxAuthorities": 1000,
+      "maxNominators": 0,
+      "maxSetIdSessionEntries": 32
+    },
+    "founderCustody": {
+      "custodyPalletId": "0x6572612f76616d6d"
+    },
+    "issuanceCap": {}
+  },
+  "calls": {
+    "balances": {
+      "transferAllowDeath": {
+        "index": "0200",
+        "args": [
+          {
+            "name": "dest",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "value",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "forceTransfer": {
+        "index": "0202",
+        "args": [
+          {
+            "name": "source",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "dest",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "value",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "transferKeepAlive": {
+        "index": "0203",
+        "args": [
+          {
+            "name": "dest",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "value",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "transferAll": {
+        "index": "0204",
+        "args": [
+          {
+            "name": "dest",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "keepAlive",
+            "type": "bool",
+            "typeName": "bool"
+          }
+        ]
+      },
+      "forceUnreserve": {
+        "index": "0205",
+        "args": [
+          {
+            "name": "who",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "amount",
+            "type": "u128",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "upgradeAccounts": {
+        "index": "0206",
+        "args": [
+          {
+            "name": "who",
+            "type": "Vec<AccountId32>",
+            "typeName": "Vec<AccountId>"
+          }
+        ]
+      },
+      "forceSetBalance": {
+        "index": "0208",
+        "args": [
+          {
+            "name": "who",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "newFree",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "forceAdjustTotalIssuance": {
+        "index": "0209",
+        "args": [
+          {
+            "name": "direction",
+            "type": "PalletBalancesAdjustmentDirection",
+            "typeName": "AdjustmentDirection"
+          },
+          {
+            "name": "delta",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          }
+        ]
+      },
+      "burn": {
+        "index": "020a",
+        "args": [
+          {
+            "name": "value",
+            "type": "Compact<u128>",
+            "typeName": "Balance"
+          },
+          {
+            "name": "keepAlive",
+            "type": "bool",
+            "typeName": "bool"
+          }
+        ]
+      }
+    },
+    "utility": {},
+    "sudo": {
+      "sudo": {
+        "index": "0400",
+        "args": [
+          {
+            "name": "call",
+            "type": "Call",
+            "typeName": "RuntimeCall"
+          }
+        ]
+      },
+      "sudoUncheckedWeight": {
+        "index": "0401",
+        "args": [
+          {
+            "name": "call",
+            "type": "Call",
+            "typeName": "RuntimeCall"
+          },
+          {
+            "name": "weight",
+            "type": "SpWeightsWeightV2Weight",
+            "typeName": "Weight"
+          }
+        ]
+      },
+      "setKey": {
+        "index": "0402",
+        "args": [
+          {
+            "name": "new",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          }
+        ]
+      },
+      "sudoAs": {
+        "index": "0403",
+        "args": [
+          {
+            "name": "who",
+            "type": "MultiAddress",
+            "typeName": "AccountIdLookupOf"
+          },
+          {
+            "name": "call",
+            "type": "Call",
+            "typeName": "RuntimeCall"
+          }
+        ]
+      },
+      "removeKey": {
+        "index": "0404",
+        "args": []
+      }
+    }
+  },
+  "syntheticAccount": {
+    "nonce": 0,
+    "consumers": 0,
+    "providers": 0,
+    "sufficients": 0,
+    "data": {
+      "free": 0,
+      "reserved": 0,
+      "frozen": 0,
+      "flags": "0x80000000000000000000000000000000"
+    }
+  },
+  "sudoKey": "5Gzp5Kcgkg42WQ1LoWfrV9icX6HE7ZssCRT1eB4GESa1cy9X",
+  "feeEstimate": {
+    "weight": {
+      "refTime": 13122032000,
+      "proofSize": 31886
+    },
+    "class": "Normal",
+    "partialFee": 108157000
+  }
+}
