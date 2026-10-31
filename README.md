@@ -18,6 +18,10 @@ Native transfers, consensus staking, capped SecurityBudget accrual, founder vest
 
 AMM and AI predictive tokenization are inactive and deferred. Sentry/private metadata storage is outside V14. The dedicated public ERA Metadata Service is the V14 metadata route.
 
+## Planned V15 programme
+
+DeFi and dApp readiness remains in scope. AMM commissioning is carried forward to V15 alongside developer tooling, wallet integration and application execution evaluation. See the [consolidated V15 roadmap](docs/19_V15_DEFI_DAPP_ROADMAP.md) for proposed workstreams, delivery milestones and qualification boundaries. [V15-INTEROP-01](docs/18_V15_ERC20_INTEROPERABILITY.md) remains its distinct ERC-20/external-access workstream. This roadmap is planned work, not evidence of live DeFi or deployable contracts.
+
 ## Canonical repositories
 
 | Component | Repository and default branch | Current status |
@@ -42,6 +46,7 @@ The canonical repositories retain their existing default branches and protected 
 - [Verified listing factsheet](docs/15_PUBLIC_LISTING_FACTSHEET.md)
 - [Become a validator](docs/16_BECOME_A_VALIDATOR.md)
 - [Frequently asked questions](docs/17_FAQ.md)
+- [Consolidated V15 roadmap: DeFi, dApps and interoperability](docs/19_V15_DEFI_DAPP_ROADMAP.md)
 - [Planned V15 ERC-20 interoperability and external-wallet access](docs/18_V15_ERC20_INTEROPERABILITY.md)
 
 Documents 01–10 originated as the 28 August 2026 V13 private-review baseline. Their historical anchors remain useful but do not override the current V14 status above or documents 11–13.
