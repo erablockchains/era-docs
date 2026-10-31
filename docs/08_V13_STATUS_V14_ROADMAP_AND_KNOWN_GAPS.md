@@ -7,6 +7,8 @@
 
 > **V15 planning update (17 October 2026):** ERC-20 interoperability and external-wallet/exchange access are recorded in [V15-INTEROP-01](18_V15_ERC20_INTEROPERABILITY.md). The historical baseline below is retained unchanged.
 
+> **V15 scope reconciliation (31 October 2026):** DeFi/dApp readiness and deferred AMM commissioning are carried forward in the [consolidated V15 roadmap](19_V15_DEFI_DAPP_ROADMAP.md). ERC-20 interoperability is a separate workstream within that broader plan. The historical V13/V14 baseline below remains unchanged.
+
 ## Version boundary
 
 | Version | Status | Meaning |
